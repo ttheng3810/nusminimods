@@ -45,6 +45,12 @@ Some third-party dependencies used in this project:-
 ![](./screenshots/justnice.png)
 ![](./screenshots/overload.png)
 
+### Limitations and possible improvements
+
+- Timetable clashes, etc. are not accounted for the module combinations in this bot.
+- Although the recommended modules provided by this bot have considered the fulfilment of prerequisites, they are still randomly chosen. The implementation of more personalised recommendation based on user feedback data should be more preferred.
+- While simple-looking and OK in providing rough module plannings, this bot only considers modules taken in the current semester and also those to be taken in the following semester, hence it is not comprehensive enough to account for deeper prerequisite chains or other more nuanced circumstances.
+
 ### Footnote
 
 NUSMiniMods is built for NUS Interhall Hackathon 2022, held on 5-6 December 2022.
